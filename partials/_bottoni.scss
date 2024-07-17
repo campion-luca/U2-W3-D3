@@ -1,0 +1,11 @@
+$botton-color : (
+    blu: #0e6cff,
+    orange: #ff8700,
+    green: #4caf50,
+);
+
+@each $break, $color in $botton-color {
+    .btnColor-#{$break} {
+        background-color: $color;
+    }
+} 

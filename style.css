@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  list-style-type: none;
+}
+
+header {
+  background-color: #640fc5;
+}
+header nav {
+  color: #f4f4f4;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.padding-sm {
+  padding: 10px;
+}
+
+.padding-normal {
+  padding: 12px;
+}
+
+.padding-md {
+  padding: 16px;
+}
+
+.padding-lg {
+  padding: 20px;
+}
+
+.padding-xl {
+  padding: 28px;
+}
+
+.padding-xxl {
+  padding: 30px;
+}
+
+.margin-sm {
+  margin: 10px;
+}
+
+.margin-normal {
+  margin: 12px;
+}
+
+.margin-md {
+  margin: 16px;
+}
+
+.margin-lg {
+  margin: 20px;
+}
+
+.margin-xl {
+  margin: 28px;
+}
+
+.margin-xxl {
+  margin: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ol {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnColor-blu {
+  background-color: #0e6cff;
+}
+
+.btnColor-orange {
+  background-color: #ff8700;
+}
+
+.btnColor-green {
+  background-color: #4caf50;
+}
+
+body img {
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 3px;
+  border: 2px solid black;
+}
+
+main .container {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+main img {
+  width: 20%;
+}/*# sourceMappingURL=style.css.map */

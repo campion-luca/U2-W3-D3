@@ -1,0 +1,52 @@
+//  CREAZIONE MIXIN PER PADDING --------------------------
+$my-padding: (
+    sm: 10px,
+    normal: 12px,
+    md: 16px,
+    lg: 20px,
+    xl: 28px,
+    xxl: 30px,
+);
+
+// CREAZIONE CLASSI
+@each $breakpoint, $value in $my-padding {
+    .padding-#{$breakpoint} {
+        padding: $value;
+    }
+}
+
+//  CREAZIONE MIXIN PER MARGIN --------------------------
+$my-margin: (
+    sm: 10px,
+    normal: 12px,
+    md: 16px,
+    lg: 20px,
+    xl: 28px,
+    xxl: 30px,
+);
+
+// CREAZIONE CLASSI
+@each $breakpoint, $value in $my-margin {
+    .margin-#{$breakpoint} {
+        margin: $value;
+    }
+}
+
+// -----------------------------------------------------
+// CREAZIONE MIXIN PER TITOLO
+@mixin customNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+// -----------------------------------------------------
+nav {
+    @include customNav;
+
+    ol {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
